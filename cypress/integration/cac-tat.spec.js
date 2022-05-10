@@ -45,7 +45,7 @@ describe('Central de atendimento ao cliente tat', function() {
         cy.get('#firstName').type('Elcimar')
         cy.get('#lastName').type('Silva')
         cy.get('#email').type('elcimar@gmail,com')
-        cy.get('#phone-checkbox').click()
+        cy.get('#phone-checkbox').check()
         cy.get('#open-text-area').type('longText', {delay: 0})
         cy.get('button[type="submit"]').click()
         //Procura a classe error
@@ -120,9 +120,22 @@ describe('Central de atendimento ao cliente tat', function() {
         })
     })
 
-    it.only('Marcar e validar checkbox, contato preferencial', function(){
+    it('Marcar e validar checkbox, contato preferencial', function(){
         cy.get('#email-checkbox').check()
-            
+        cy.get('#email-checkbox').uncheck()
+    })
+
+    it('Marca ambos checkboxes, depois desmarca o último', function(){
+        cy.get('input[type="checkbox"]')
+            .check()
+            .should('be.checked')
+            .last()
+            .uncheck()
+            .should('not.be.checked')
+    })
+
+    it.only('', function(){
+        
     })
 
 })
