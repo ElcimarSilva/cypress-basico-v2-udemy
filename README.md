@@ -27,3 +27,18 @@ Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
 ___
 
 Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+
+
+# cypress-basico-v2
+Projeto simples do curso basico de cypress do talking about testing
+
+# Pré requisitos
+Node, Npm, git, vscode
+
+# Instalação
+npm install 
+Irá instalar as dependencias do projeto caso haja um package.json e package-lock.json
+
+# Execução dos testes
+npm test
+npm run cy:open
