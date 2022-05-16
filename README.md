@@ -17,7 +17,7 @@ Durante o curso de testes automatizados com Cypress (básico), você vai aprende
 - Como lidar com links que abrem em outra aba do navegador
 - Como rodar testes simulando as dimensões de um dispositivo móvel
 - Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
+- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)    
 - Como criar uma documentação mínima para seu projeto de testes automatizados
 
 ## Vamos começar?
@@ -40,5 +40,5 @@ npm install
 Irá instalar as dependencias do projeto caso haja um package.json e package-lock.json
 
 # Execução dos testes
-npm test
-npm run cy:open
+- npm test
+- npm run cy:open
