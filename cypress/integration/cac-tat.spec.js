@@ -175,7 +175,7 @@ describe('Central de atendimento ao cliente tat', function() {
         cy.contains('Talking About Testing').should('be.visible')
     })
 
-    it.only('Teste a pagina da politica de privacidade de independente', function(){
+    it('Teste a pagina da politica de privacidade de independente', function(){
         cy.visit('src/privacy.html')
         cy.get('#title').should('be.visible')
         cy.contains('Talking About Testing').should('be.visible')
