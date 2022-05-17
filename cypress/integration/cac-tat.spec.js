@@ -1,4 +1,4 @@
-/// <reference types="cypress" />
+// <reference types="cypress" />
 
 describe('Central de atendimento ao cliente tat', function() {
     //Antes de cada

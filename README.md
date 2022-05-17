@@ -36,9 +36,12 @@ Projeto simples do curso basico de cypress do talking about testing
 Node, Npm, git, vscode
 
 # Instalação
-npm install 
-Irá instalar as dependencias do projeto caso haja um package.json e package-lock.json
+- npm install 
+- Irá instalar as dependencias do projeto caso haja um package.json e package-lock.json
+
+- npm install cypress
 
 # Execução dos testes
+- npx cypress open
 - npm test
 - npm run cy:open
